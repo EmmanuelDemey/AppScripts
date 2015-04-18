@@ -36,7 +36,7 @@ function checkGoogleContactHasCompany() {
   message = ('Contact without company : ' + message );
   
   if(messae !== ''){
-    MailApp.sendEmail('emmanuel.demey@zenika.com', 'Contact without Company', message);
+    MailApp.sendEmail('email@gmail.com, 'Contact without Company', message);
   }
   
 }
